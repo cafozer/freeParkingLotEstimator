@@ -3,6 +3,6 @@ select = B,B9,BLK,C,E,F,I,S,W
 max-complexity = 10
 ignore = E203,W503
 max-line-length = 88
-application-import-names = stylus_pnl_reporting,tests
+application-import-names = parkingLotEstimator,tests
 import-order-style = google
 per-file-ignores = tests/*:S101
