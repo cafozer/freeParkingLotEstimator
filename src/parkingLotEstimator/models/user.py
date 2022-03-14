@@ -5,6 +5,8 @@ from flask_login import UserMixin
 
 
 class User(UserMixin):
+    __slots__ = ["username", "password", "phone_number", "mail_address", "num_of_cars"]
+
     def __init__(
         self,
         username: str,
